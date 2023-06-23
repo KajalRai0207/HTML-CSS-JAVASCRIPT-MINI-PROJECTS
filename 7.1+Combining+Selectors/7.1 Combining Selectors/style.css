@@ -1,0 +1,21 @@
+/*group selector*/
+h1,h2{
+    color:blueviolet;
+}
+/* parent > child */
+.box > p{
+    color: firebrick;
+}
+/* descendant = Apply to descendant of left side */
+.box .list{
+    color:blue;
+}
+
+/* chaining = Apply where all selectors are true */
+li.done{
+    color:green;
+}
+
+ul p.done{
+    font-size: 0.5rem;
+}
